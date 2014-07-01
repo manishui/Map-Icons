@@ -1,0 +1,8 @@
+$(function() {
+		if (!Modernizr.inputtypes['text']) {
+			$('.found-event-form input[type=text]').datepicker({
+				dateFormat: 'D, d MM, yy'
+			});
+		}
+	});	
+	
